@@ -1,16 +1,17 @@
 <?xml version="1.0"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
- <file original="database-export" datatype="plaintext" source-language="de" target-language="de-de">
-  <body>
-   <trans-unit id="1111">
-    <source><![CDATA[PAM]]></source>
-    <target><![CDATA[Config-Flag ob das Modul PAM aktiviert ist oder nicht]]></target>
-   </trans-unit>
-   <trans-unit id="2222">
-    <source><![CDATA[MULTI_VPN]]></source>
-    <target><![CDATA[Aktiviert die MultiVPN-Funktionalität (z.B. Suchfelder für VPN in Standardsuche, Anzeige in ERA-Health) an der Oberfläche.
-Wenn der Wert auf "set" gesetzt ist, werden die Devices, für den jeweiligen Mandanten, VPN-weise auf die verbliebenen SATs verteilt.]]></target>
-   </trans-unit>
-  </body>
- </file>
+<xliff version="1.0">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2011-10-18T18:20:51Z"
+          product-name="my-ext">
+        <header/>
+        <body>
+            <trans-unit id="headerComment" xml:space="preserve">
+                <source>The default Header Comment.</source>
+                <target>Der Standard-Header-Kommentar.</target>
+            </trans-unit>
+            <trans-unit id="generator" xml:space="preserve">
+                 <source>The "Generator" Meta Tag.</source>
+                 <target>Der "Generator"-Meta-Tag.</target>
+            </trans-unit>
+        </body>
+    </file>
 </xliff>
