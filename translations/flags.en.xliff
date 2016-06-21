@@ -1,0 +1,1486 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+ <file original="database-export" datatype="plaintext" source-language="de" target-language="en-us">
+  <body>
+   <trans-unit id="2633">
+    <source><![CDATA[PAM]]></source>
+    <target><![CDATA[Config flag if PAM is activated or not.]]></target>
+   </trans-unit>
+   <trans-unit id="8026">
+    <source><![CDATA[MULTI_VPN]]></source>
+    <target><![CDATA[Activates the Multi-VPN function (e.g. search fields for VPN in the standard search, display in ERA-Health) on the user interface.
+
+When the value is set to "Set", the devices for the relevant client are divided by VPN on to the remaining SATs]]></target>
+   </trans-unit>
+   <trans-unit id="7115">
+    <source><![CDATA[berecht_loc_grp]]></source>
+    <target><![CDATA[Controls if the functionality of the location group permission will be shown.]]></target>
+   </trans-unit>
+   <trans-unit id="7117">
+    <source><![CDATA[car_an_mgmt_search_status]]></source>
+    <target><![CDATA[Controls which check boxes are activated by default in the order management.]]></target>
+   </trans-unit>
+   <trans-unit id="7118">
+    <source><![CDATA[car_kunden_bcc]]></source>
+    <target><![CDATA[Carrier Management: Activates the CCI function. Data fields for customer e-mails]]></target>
+   </trans-unit>
+   <trans-unit id="7119">
+    <source><![CDATA[car_kunden_betreff]]></source>
+    <target><![CDATA[Carrier Management: Activates the CCI function. Data fields for customer e-mails (Subject)]]></target>
+   </trans-unit>
+   <trans-unit id="7120">
+    <source><![CDATA[car_kunden_body]]></source>
+    <target><![CDATA[Carrier Management: Activates the CCI function. Data fields for customer e-mails.]]></target>
+   </trans-unit>
+   <trans-unit id="7121">
+    <source><![CDATA[best_tech]]></source>
+    <target><![CDATA[Activates the administration of technical parameters when ordering circuits (interface, terminating unit, transfer unit)]]></target>
+   </trans-unit>
+   <trans-unit id="7122">
+    <source><![CDATA[bestell_scharf]]></source>
+    <target><![CDATA[Activates the transmission of orders from Carrier Management.]]></target>
+   </trans-unit>
+   <trans-unit id="7123">
+    <source><![CDATA[car_preise]]></source>
+    <target><![CDATA[Activates the prices in Carrier Management.]]></target>
+   </trans-unit>
+   <trans-unit id="7124">
+    <source><![CDATA[ek_vk]]></source>
+    <target><![CDATA[Specifies if  purchase/sales prices will be entered separately; whether circuits are shown with purchase/sales prices.]]></target>
+   </trans-unit>
+   <trans-unit id="7125">
+    <source><![CDATA[max_search]]></source>
+    <target><![CDATA[This parameter specifies the number of results displayed per page, for, among others, the following menu entries/pages:
+- selection and search pages for devices and ports
+- inventory (history, list, overview)
+- CCC (Template Run)
+- ERAMON search
+- syslog reporting
+- network status
+- provisioning engine]]></target>
+   </trans-unit>
+   <trans-unit id="7126">
+    <source><![CDATA[multi_currency]]></source>
+    <target><![CDATA[This flag indicates if the multi-currency feature is activated.]]></target>
+   </trans-unit>
+   <trans-unit id="7127">
+    <source><![CDATA[no_devs]]></source>
+    <target><![CDATA[Hiding of device information in Carrier Management.]]></target>
+   </trans-unit>
+   <trans-unit id="7128">
+    <source><![CDATA[rech_lauf]]></source>
+    <target><![CDATA[Date of the most recent billing cycle (up to this date prices can be adjusted).]]></target>
+   </trans-unit>
+   <trans-unit id="7129">
+    <source><![CDATA[cust_sort]]></source>
+    <target><![CDATA[The cust_sort config flag specifies the sort order for the ports in the device info. Possible values.]]></target>
+   </trans-unit>
+   <trans-unit id="7130">
+    <source><![CDATA[anyterm_direct_connect]]></source>
+    <target><![CDATA[Anyterm Login: Connection is directly from CENTER (for "set", otherwise from SAT).]]></target>
+   </trans-unit>
+   <trans-unit id="7131">
+    <source><![CDATA[anyterm_era_user]]></source>
+    <target><![CDATA[If the ERAMON user name is to be used in the login.]]></target>
+   </trans-unit>
+   <trans-unit id="7136">
+    <source><![CDATA[anyterm_no_auto_login]]></source>
+    <target><![CDATA[Anyterm will not login automatically (request for user name and password).]]></target>
+   </trans-unit>
+   <trans-unit id="7137">
+    <source><![CDATA[anyterm_no_enable_mode]]></source>
+    <target><![CDATA[Anyterm will not connect through to the enable-mode.]]></target>
+   </trans-unit>
+   <trans-unit id="7138">
+    <source><![CDATA[auto_login]]></source>
+    <target><![CDATA[Anyterm: Automatic login without entry of user &password.]]></target>
+   </trans-unit>
+   <trans-unit id="7139">
+    <source><![CDATA[custport]]></source>
+    <target><![CDATA[Activates the customer per ports behavior.]]></target>
+   </trans-unit>
+   <trans-unit id="7140">
+    <source><![CDATA[def_managed]]></source>
+    <target><![CDATA[Default value for ports during scanning in. (Managed, EPM)
+
+These options are possible
+y (managed)
+n (unmanaged)
+a (all ports with Oper-Status up)
+s (all ports with Admin-Status up)]]></target>
+   </trans-unit>
+   <trans-unit id="7141">
+    <source><![CDATA[new_popup]]></source>
+    <target><![CDATA[Is possible for devices in the Device Administration menu and for images in the Device Info > EPM menu.]]></target>
+   </trans-unit>
+   <trans-unit id="7142">
+    <source><![CDATA[pw_tmpl]]></source>
+    <target><![CDATA[This flag indicates if passwords are also used for the login templates.]]></target>
+   </trans-unit>
+   <trans-unit id="7143">
+    <source><![CDATA[eep_core_trap_community]]></source>
+    <target><![CDATA[Specifies which community is used for the transmission of announcement traps.]]></target>
+   </trans-unit>
+   <trans-unit id="7144">
+    <source><![CDATA[eep_core_port_typ_ignore]]></source>
+    <target><![CDATA[Which port types are to be ignored during correlation (in reference to network topology).]]></target>
+   </trans-unit>
+   <trans-unit id="7145">
+    <source><![CDATA[clean_container]]></source>
+    <target><![CDATA[Controls after how many hours an empty containers is to be archived.]]></target>
+   </trans-unit>
+   <trans-unit id="7146">
+    <source><![CDATA[del_ignore_clear]]></source>
+    <target><![CDATA[This setting indicates when (in minutes) cleared events are to be deleted from the event tool.]]></target>
+   </trans-unit>
+   <trans-unit id="7147">
+    <source><![CDATA[eep_core_trap_port]]></source>
+    <target><![CDATA[Indicates which port is to be used for the transmission of announcement traps.]]></target>
+   </trans-unit>
+   <trans-unit id="7148">
+    <source><![CDATA[ack_reason]]></source>
+    <target><![CDATA[Activates the entry field so a reason can be entered for an event acknowledgement.]]></target>
+   </trans-unit>
+   <trans-unit id="7149">
+    <source><![CDATA[ack_reason_pflicht]]></source>
+    <target><![CDATA[The ack_reason_pflicht config flag turns the "Acknowledge Reason" field into a mandatory field.]]></target>
+   </trans-unit>
+   <trans-unit id="7150">
+    <source><![CDATA[container_folge_events]]></source>
+    <target><![CDATA[Controls the behavior when adding correlated alarms to containers.]]></target>
+   </trans-unit>
+   <trans-unit id="7151">
+    <source><![CDATA[eep_core_bgp_neighbor]]></source>
+    <target><![CDATA[This flag indicates if a "BGP Session Down" message is to set off a downtime for the relevant port via the  IP provided.]]></target>
+   </trans-unit>
+   <trans-unit id="7152">
+    <source><![CDATA[eep_core_bgp_neighbor_no_sla]]></source>
+    <target><![CDATA[Indicates if a "BGP Neighbor Down" message is to start the SLA calculation.]]></target>
+   </trans-unit>
+   <trans-unit id="7153">
+    <source><![CDATA[eep_core_link_master]]></source>
+    <target><![CDATA[This flag indicates if a correlation via the network topology (link_master table) is to be carried out.]]></target>
+   </trans-unit>
+   <trans-unit id="7154">
+    <source><![CDATA[eep_core_ospf_neighbor]]></source>
+    <target><![CDATA[This flag indicates if a "ospfNghbrStateChanged" message is to set off a downtime for the relevant port via the IP provided.]]></target>
+   </trans-unit>
+   <trans-unit id="7155">
+    <source><![CDATA[eep_core_reboot_sla]]></source>
+    <target><![CDATA[In this flag you can specify if an event source with a "sysuptime" event source and the message "Device rebooted: … (Date)" should  automatically set up a scheduled maintenance task (e.g.  after a power failure).]]></target>
+   </trans-unit>
+   <trans-unit id="7156">
+    <source><![CDATA[eep_core_reboot_sla_offset]]></source>
+    <target><![CDATA[A scheduled maintenance task following a reboot is finished once EPM poll is successfully completed. The start of the device will then be used as the starting time.]]></target>
+   </trans-unit>
+   <trans-unit id="7157">
+    <source><![CDATA[eep_core_root_cause]]></source>
+    <target><![CDATA[This flag indicates if an RCA is to be carried out after a master link correlation (config flag: eep_core_link_master).]]></target>
+   </trans-unit>
+   <trans-unit id="7158">
+    <source><![CDATA[event_all_checkbox]]></source>
+    <target><![CDATA[Activates the checkbox column in the Event Tool.]]></target>
+   </trans-unit>
+   <trans-unit id="7159">
+    <source><![CDATA[event_tool_allow_html]]></source>
+    <target><![CDATA[Specifies that the error texts are displayed in the Event Tool in HTML.]]></target>
+   </trans-unit>
+   <trans-unit id="7160">
+    <source><![CDATA[ignore_clear]]></source>
+    <target><![CDATA[This flag indicates if clear events are to delete the alarm from events_out or not. As long as an event is not deleted once it is cleared, it will be highlighted in green the event tool.
+
+Description of the values:
+0 - A pending event will be deleted by a clear event.
+1 - A pending event will be deleted by a clear event if no acknowledge has been carried out prior to this.
+2 - Events are never deleted.]]></target>
+   </trans-unit>
+   <trans-unit id="7161">
+    <source><![CDATA[ignore_clear_reopen]]></source>
+    <target><![CDATA[This flag indicates if new events should be able to re-open (value 1) already cleared alarms  in the Event Tool (green).
+
+Description of values:
+0 - the green event will not be re-opened when a renewed down alert occurs. The system simply shows a new event in the event tool.
+1 - The green event will be re-opened when a renewed down alert occurs, and will be shown in the event tool as pending.]]></target>
+   </trans-unit>
+   <trans-unit id="7162">
+    <source><![CDATA[ignore_reason]]></source>
+    <target><![CDATA[Activates the query for the error ignore reason.]]></target>
+   </trans-unit>
+   <trans-unit id="7163">
+    <source><![CDATA[noc_view_container]]></source>
+    <target><![CDATA[If activated, it is possible to exclusively clear containers (or more precisely their content) for viewing via the config variable in the NOC view. The default setting of this config flag is for ALL events to be shown.]]></target>
+   </trans-unit>
+   <trans-unit id="7164">
+    <source><![CDATA[not_clear_ignored]]></source>
+    <target><![CDATA[Controls if a clear event is transmitted for ignored alarms. By default this clear message is sent, unless the config flag has been set!]]></target>
+   </trans-unit>
+   <trans-unit id="7165">
+    <source><![CDATA[not_ignore_acked]]></source>
+    <target><![CDATA[Specifies that ignoring events via the checkbox is ONLY possible for those events that have not yet been acknowledged.]]></target>
+   </trans-unit>
+   <trans-unit id="7166">
+    <source><![CDATA[not_show_ack_default]]></source>
+    <target><![CDATA[Controls if acknowledged alarms are shown by default when the "ACK Reason" button is activated. The default setting is for them to be shown.]]></target>
+   </trans-unit>
+   <trans-unit id="7167">
+    <source><![CDATA[not_show_port_desc]]></source>
+    <target><![CDATA[This flag specifies that the port description will not be displayed in the Event Tool.]]></target>
+   </trans-unit>
+   <trans-unit id="7168">
+    <source><![CDATA[reboot_flag]]></source>
+    <target><![CDATA[In this flag you can specify  which reboot reason a "Device rebooted: … (Date)" event has to have in order for it to be removed from SLA calculation via a scheduled maintenance.]]></target>
+   </trans-unit>
+   <trans-unit id="7169">
+    <source><![CDATA[show_status]]></source>
+    <target><![CDATA[This parameter activates the display of the error overview in the status bar.
+The overview can be edited further via the settings in the event tool.]]></target>
+   </trans-unit>
+   <trans-unit id="7170">
+    <source><![CDATA[sort_clear_first]]></source>
+    <target><![CDATA[If the config flag is set, the acknowledged , but cleared, alarms are displayed.]]></target>
+   </trans-unit>
+   <trans-unit id="7171">
+    <source><![CDATA[epm_graph_base64]]></source>
+    <target><![CDATA[Indicates if the EPM graphs are shown as a base64-encoded inline image or as a link to a jpg-file.]]></target>
+   </trans-unit>
+   <trans-unit id="7172">
+    <source><![CDATA[Turbo-Poll]]></source>
+    <target><![CDATA[Indicates for how long the 1-minute turbo poll should stay activated.]]></target>
+   </trans-unit>
+   <trans-unit id="7173">
+    <source><![CDATA[revision]]></source>
+    <target><![CDATA[The "revision" config flag  shows the currently used revision on your system. This flag is required for the number of the ERAMON version.]]></target>
+   </trans-unit>
+   <trans-unit id="7174">
+    <source><![CDATA[show-rem_dev_id]]></source>
+    <target><![CDATA[Displays the "Remote Device ID" field for the device edit (read-only)]]></target>
+   </trans-unit>
+   <trans-unit id="7175">
+    <source><![CDATA[site-id]]></source>
+    <target><![CDATA[Site ID for the installation. Usually a unique number identifying the customer (e.g. Customer ID of ERP) are entered at this point.]]></target>
+   </trans-unit>
+   <trans-unit id="7176">
+    <source><![CDATA[statement_errors]]></source>
+    <target><![CDATA[Number of days after which SQL errors are recorded.]]></target>
+   </trans-unit>
+   <trans-unit id="7177">
+    <source><![CDATA[statement_errors_mail]]></source>
+    <target><![CDATA[Are SQL errors to be transmitted?]]></target>
+   </trans-unit>
+   <trans-unit id="7178">
+    <source><![CDATA[updatenr]]></source>
+    <target><![CDATA[This flag is required for the number of the ERAMON version. The update number is added to the version number.]]></target>
+   </trans-unit>
+   <trans-unit id="7180">
+    <source><![CDATA[CheckReplicationParamCrit]]></source>
+    <target><![CDATA[Sets the threshold value for the HA critical message: "hotstandby: Replication out of sync!"]]></target>
+   </trans-unit>
+   <trans-unit id="7181">
+    <source><![CDATA[CheckReplicationParamWarn]]></source>
+    <target><![CDATA[Sets the threshold value for the HA alert: "hotstandby: Replication out of sync!"]]></target>
+   </trans-unit>
+   <trans-unit id="7182">
+    <source><![CDATA[pam_clear]]></source>
+    <target><![CDATA[Specifies if PAM is also to process clear events.]]></target>
+   </trans-unit>
+   <trans-unit id="7183">
+    <source><![CDATA[min_ip_pool_member]]></source>
+    <target><![CDATA[Activates if the minimum number of still available IP pool members is not met.]]></target>
+   </trans-unit>
+   <trans-unit id="7184">
+    <source><![CDATA[port_prov]]></source>
+    <target><![CDATA[Activates port provisioning in the provisioning tool.]]></target>
+   </trans-unit>
+   <trans-unit id="7185">
+    <source><![CDATA[prov3_tacacs]]></source>
+    <target><![CDATA[If set, the user has to enter User/PW during the setup of a provisioning job. Otherwise the data held on the login template will be used.]]></target>
+   </trans-unit>
+   <trans-unit id="7186">
+    <source><![CDATA[disable_turbo_poll]]></source>
+    <target><![CDATA[This flag deactivates the turbo poll for interactive reports in the report editor]]></target>
+   </trans-unit>
+   <trans-unit id="7187">
+    <source><![CDATA[sla_highlight]]></source>
+    <target><![CDATA[This flag specifies  which SLA entry is to be highlighted with a special color on the user interface.]]></target>
+   </trans-unit>
+   <trans-unit id="7188">
+    <source><![CDATA[sla_highlight_color]]></source>
+    <target><![CDATA[This flag specifies the color with which an SLA entry is to be displayed on the user interface.]]></target>
+   </trans-unit>
+   <trans-unit id="7189">
+    <source><![CDATA[car_sort_item_kd]]></source>
+    <target><![CDATA[If set (=Set), dropdown fields (master data such as customer or location selection) are sorted by adr1; otherwise the sort is by ikd_nr.]]></target>
+   </trans-unit>
+   <trans-unit id="7190">
+    <source><![CDATA[car_sort_item_lok]]></source>
+    <target><![CDATA[If set (=Set), dropdown fields (master data such as customer or location selection) are sorted by adr1; otherwise the sort is by ikd_nr.]]></target>
+   </trans-unit>
+   <trans-unit id="7191">
+    <source><![CDATA[loc_ikd_nr_pflicht]]></source>
+    <target><![CDATA[When activated ("set") , this flag sets the location number field into a mandatory field.]]></target>
+   </trans-unit>
+   <trans-unit id="7192">
+    <source><![CDATA[mans]]></source>
+    <target><![CDATA[This flag indicates the maximum number of clients possible.]]></target>
+   </trans-unit>
+   <trans-unit id="7193">
+    <source><![CDATA[max_date]]></source>
+    <target><![CDATA["max_date" contains the maximum date that will be shown by default in forms.]]></target>
+   </trans-unit>
+   <trans-unit id="7194">
+    <source><![CDATA[max_ports]]></source>
+    <target><![CDATA[This flag is required for SAT pools and serves as the calculation basis for the individual SAT loads.]]></target>
+   </trans-unit>
+   <trans-unit id="7195">
+    <source><![CDATA[pass_hold_days]]></source>
+    <target><![CDATA[Validity periods for ERAMON PWs]]></target>
+   </trans-unit>
+   <trans-unit id="7196">
+    <source><![CDATA[relay_notes]]></source>
+    <target><![CDATA[The "relay_notes" config flag sets the delimiter for e-mail transmissions. If set (=set) a comma is used, otherwise a semicolon.]]></target>
+   </trans-unit>
+   <trans-unit id="7198">
+    <source><![CDATA[session_timeout]]></source>
+    <target><![CDATA[Specifies the time in hours (h) after which a user would be logged out.]]></target>
+   </trans-unit>
+   <trans-unit id="7199">
+    <source><![CDATA[system_lang]]></source>
+    <target><![CDATA[Defines the language used by the system (1=German; 2=English)]]></target>
+   </trans-unit>
+   <trans-unit id="7200">
+    <source><![CDATA[tt_auto_assign]]></source>
+    <target><![CDATA[Activates the automatic assigning of tickets in the queue to the hostmaster, set in minutes by (<val>).]]></target>
+   </trans-unit>
+   <trans-unit id="7201">
+    <source><![CDATA[GeoViewSize]]></source>
+    <target><![CDATA[Resolution of the geo view on the user interface, default setting is 800x600.]]></target>
+   </trans-unit>
+   <trans-unit id="7202">
+    <source><![CDATA[custom_pic]]></source>
+    <target><![CDATA[Activates a customized welcome screen, either Topology Map at the start or an image. The individual image or map can be saved in "initscreen" in the user table.]]></target>
+   </trans-unit>
+   <trans-unit id="7203">
+    <source><![CDATA[ipsla_enable]]></source>
+    <target><![CDATA[Controls if IP-SLA tests in the topology view are activated.]]></target>
+   </trans-unit>
+   <trans-unit id="7204">
+    <source><![CDATA[man_hier_connections]]></source>
+    <target><![CDATA[This flag specifies if the UP ports are identified for manually created hierachies.]]></target>
+   </trans-unit>
+   <trans-unit id="7205">
+    <source><![CDATA[topo_allow_all_linktyp]]></source>
+    <target><![CDATA[This parameter controls if during the link selection all  link types should be offered for selection as well.]]></target>
+   </trans-unit>
+   <trans-unit id="7206">
+    <source><![CDATA[topo_default_manuell]]></source>
+    <target><![CDATA[This parameter controls if the default assignment of the placement within Topology View is geographical (the basic standard) or manually (by setting the parameter).]]></target>
+   </trans-unit>
+   <trans-unit id="7207">
+    <source><![CDATA[topo_lines]]></source>
+    <target><![CDATA[This parameter controls if the functionality of displaying links is enable or not.]]></target>
+   </trans-unit>
+   <trans-unit id="7208">
+    <source><![CDATA[topo_physik]]></source>
+    <target><![CDATA[Dieser Parameter controls if the functionality of being able to change between physical and logical view is enable or not.]]></target>
+   </trans-unit>
+   <trans-unit id="7209">
+    <source><![CDATA[topoview_default_abstand]]></source>
+    <target><![CDATA[This parameter specifies the default distance (in px) for the list or the UP-ports (in geographical/ manual hierarchies).
+If not set differently, it is 70px.]]></target>
+   </trans-unit>
+   <trans-unit id="7210">
+    <source><![CDATA[carrier_kunde]]></source>
+    <target><![CDATA[If this config flag is set, the "Customer CI" function within the Carrier Management menu will be shown.
+It is set by default to "Not Set".]]></target>
+   </trans-unit>
+   <trans-unit id="7211">
+    <source><![CDATA[topoview_navi]]></source>
+    <target><![CDATA[This parameter specifies if the (Topology View) starter screen will be populated with all available buttons.]]></target>
+   </trans-unit>
+   <trans-unit id="7212">
+    <source><![CDATA[topoview_no_combinations]]></source>
+    <target><![CDATA[If set, this parameter prevents a combination of weathermap AND bandwidth view.]]></target>
+   </trans-unit>
+   <trans-unit id="7214">
+    <source><![CDATA[Watermark]]></source>
+    <target><![CDATA[If selected, the depicted image will be used as a watermark for all EPM statistics.]]></target>
+   </trans-unit>
+   <trans-unit id="7215">
+    <source><![CDATA[back_color_graph_lib_image]]></source>
+    <target><![CDATA[The color of EPM statistics can be specified at this point.]]></target>
+   </trans-unit>
+   <trans-unit id="7216">
+    <source><![CDATA[back_color_graph_lib_legend]]></source>
+    <target><![CDATA[The background color for the legend in the EPM statistics can be specified at this point.]]></target>
+   </trans-unit>
+   <trans-unit id="7217">
+    <source><![CDATA[back_color_graph_lib]]></source>
+    <target><![CDATA[The color of EPM statistics can be specified at this point.]]></target>
+   </trans-unit>
+   <trans-unit id="7715">
+    <source><![CDATA[compress_table]]></source>
+    <target><![CDATA[Activates the table compression for event and EPM archive tables.]]></target>
+   </trans-unit>
+   <trans-unit id="7494">
+    <source><![CDATA[epm_graph_type]]></source>
+    <target><![CDATA[Specifies which technology will be used for the display of EPM graphs. This option is applied across all clients.
+
+Possible values:
+js - interactive JavaScript graph
+base64 - static PNG as stream
+png - static PNG as link]]></target>
+   </trans-unit>
+   <trans-unit id="7258">
+    <source><![CDATA[announce_absender]]></source>
+    <target><![CDATA[If this setting is activated,the user cannot edit the sender address.]]></target>
+   </trans-unit>
+   <trans-unit id="7330">
+    <source><![CDATA[graph_lib.chart.backgroundColor]]></source>
+    <target><![CDATA[Background color of the whole graph.
+
+Example:
+#161616]]></target>
+   </trans-unit>
+   <trans-unit id="7331">
+    <source><![CDATA[graph_lib.chart.borderColor]]></source>
+    <target><![CDATA[Border color of the graph.
+
+Example:
+#000000]]></target>
+   </trans-unit>
+   <trans-unit id="7332">
+    <source><![CDATA[graph_lib.chart.borderRadius]]></source>
+    <target><![CDATA[Border radius of the graph (in pixel)
+
+Example:
+5]]></target>
+   </trans-unit>
+   <trans-unit id="7333">
+    <source><![CDATA[graph_lib.chart.borderWidth]]></source>
+    <target><![CDATA[Border width of the graph (in pixel)
+
+Example:
+0]]></target>
+   </trans-unit>
+   <trans-unit id="7334">
+    <source><![CDATA[graph_lib.chart.plotBackgroundColor]]></source>
+    <target><![CDATA[Background color of the plotting area of the graph
+
+Example:
+#161616]]></target>
+   </trans-unit>
+   <trans-unit id="7335">
+    <source><![CDATA[graph_lib.chart.plotBorderColor]]></source>
+    <target><![CDATA[Border color of the plotting area of the graph
+
+Example:
+#000000]]></target>
+   </trans-unit>
+   <trans-unit id="7336">
+    <source><![CDATA[graph_lib.chart.plotBorderWidth]]></source>
+    <target><![CDATA[Border width of the plotting area of the graph (in pixel)
+
+Example:
+0]]></target>
+   </trans-unit>
+   <trans-unit id="7337">
+    <source><![CDATA[graph_lib.chart.selectionMarkerFill]]></source>
+    <target><![CDATA[Selection marker for zooming in graphs
+
+Example:
+#606060]]></target>
+   </trans-unit>
+   <trans-unit id="7338">
+    <source><![CDATA[graph_lib.custom.show_threshholds_per_default]]></source>
+    <target><![CDATA[Specifies if EPM threshold values will be shown in graphs by default.
+
+Possible values:
+on - the threshold values are displayed by default.
+off - the threshold values will not be displayed.
+hidden - the threshold values are hidden by default.
+auto - the threshold values are displayed if the threshold value deviates by less than 25% from the set minimum/maximum/average value for the time period.]]></target>
+   </trans-unit>
+   <trans-unit id="7339">
+    <source><![CDATA[graph_lib.custom.subtitle.text.dev]]></source>
+    <target><![CDATA[Subtitle for EPM device graphs
+
+It is also possible to use token(s).
+
+Example:
+#dev_name# - Device name
+#dev_ip# - Device IP
+#kunde_such# - Search expression for customer
+#kunde_adr# - Address line 1 for customer
+#kunde_adr2# - Address line 2 for customer
+#kunde_ort# - City location for customer
+#kunde_strasse# - Customer's road
+#kunde_plz# - Customer's post code/ZIP
+#locations_such# - Search expression for location
+#locations_adr1# - Address line 1 for location
+#locations_adr2# - Address line 2 for location
+#locations_ort# - City for the location
+#locations_strasse# - Road for the location
+#locations_plz# - Post code/ZIP for the location]]></target>
+   </trans-unit>
+   <trans-unit id="7340">
+    <source><![CDATA[graph_lib.custom.subtitle.text.port]]></source>
+    <target><![CDATA[Subtitle of EPM port graphs.
+
+It is also possible to use tokens.
+
+Example:
+#dev_name# - Device name
+#dev_ip# - Device IP
+#port_name# Port name
+#port_desc# Port description
+#port_desc_man# - Port description (manually entered)
+#port_typ# - Port type
+#port_speed# - Bandwidth of the port (formatted)
+#max_bytes# - Bandwidth of the port (read out, in byte)
+#max_bytes_era# - Bandwidth of the port (manually entered, in Byte)
+#kunde_such# - Search expression for customer
+#kunde_adr# - Address line 1 for customer
+#kunde_adr2# - Address line 2 for customer
+#kunde_ort# - City location for customer
+#kunde_strasse# - Customer's road
+#kunde_plz# - Customer's post code/ZIP
+#locations_such# - Search expression for location
+#locations_adr1# - Address line 1 for location
+#locations_adr2# - Address line 2 for location
+#locations_ort# - City for the location
+#locations_strasse# - Road for the location
+#locations_plz# - Post code/ZIP for the location]]></target>
+   </trans-unit>
+   <trans-unit id="7341">
+    <source><![CDATA[graph_lib.custom.title.text.dev]]></source>
+    <target><![CDATA[Title of EPM device graphs
+
+It is also possible to use token.
+
+Example:
+#dev_name# - Device name
+#dev_ip# - Device IP
+#kunde_such# - Search expression for customer
+#kunde_adr# - Address line 1 for customer
+#kunde_adr2# - Address line 2 for customer
+#kunde_ort# - City location for customer
+#kunde_strasse# - Customer's road
+#kunde_plz# - Customer's post code/ZIP
+#locations_such# - Search expression for location
+#locations_adr1# - Address line 1 for location
+#locations_adr2# - Address line 2 for location
+#locations_ort# - City for the location
+#locations_strasse# - Road for the location
+#locations_plz# - Post code/ZIP for the location]]></target>
+   </trans-unit>
+   <trans-unit id="7342">
+    <source><![CDATA[graph_lib.custom.title.text.port]]></source>
+    <target><![CDATA[Title of EPM port graphs
+
+It is also possible to use token.
+
+Example:
+#dev_name# - Device name
+#dev_ip# - Device IP
+#port_name# Port name
+#port_desc# Port description
+#port_desc_man# - Port description (manually entered)
+#port_typ# - Port type
+#port_speed# - Bandwidth of the port (formatted)
+#max_bytes# - Bandwidth of the port (read out, in byte)
+#max_bytes_era# - Bandwidth of the port (manually entered, in Byte)
+#kunde_such# - Search expression for customer
+#kunde_adr# - Address line 1 for customer
+#kunde_adr2# - Address line 2 for customer
+#kunde_ort# - City location for customer
+#kunde_strasse# - Customer's road
+#kunde_plz# - Customer's post code/ZIP
+#locations_such# - Search expression for location
+#locations_adr1# - Address line 1 for location
+#locations_adr2# - Address line 2 for location
+#locations_ort# - City for the location
+#locations_strasse# - Road for the location
+#locations_plz# - Post code/ZIP for the location]]></target>
+   </trans-unit>
+   <trans-unit id="7343">
+    <source><![CDATA[graph_lib.legend.backgroundColor]]></source>
+    <target><![CDATA[Background color of the legend
+
+Example:
+#161616]]></target>
+   </trans-unit>
+   <trans-unit id="7344">
+    <source><![CDATA[graph_lib.legend.borderColor]]></source>
+    <target><![CDATA[Border color of the legend
+
+Example:
+#000000]]></target>
+   </trans-unit>
+   <trans-unit id="7345">
+    <source><![CDATA[graph_lib.legend.borderRadius]]></source>
+    <target><![CDATA[Radius of the border of legends (in pixel)
+
+Example:
+5]]></target>
+   </trans-unit>
+   <trans-unit id="7346">
+    <source><![CDATA[graph_lib.legend.borderWidth]]></source>
+    <target><![CDATA[Border width of the legend (in pixel)
+
+Example:
+0]]></target>
+   </trans-unit>
+   <trans-unit id="7347">
+    <source><![CDATA[graph_lib.plotOptions.area.fillOpacity]]></source>
+    <target><![CDATA[Transparency of areas in graphs
+
+Example:
+0.75]]></target>
+   </trans-unit>
+   <trans-unit id="7348">
+    <source><![CDATA[graph_lib.plotOptions.area.lineWidth]]></source>
+    <target><![CDATA[Line width for areas
+
+Example:
+2]]></target>
+   </trans-unit>
+   <trans-unit id="7349">
+    <source><![CDATA[graph_lib.plotOptions.line.lineWidth]]></source>
+    <target><![CDATA[Line width in graphs
+
+Example:
+2]]></target>
+   </trans-unit>
+   <trans-unit id="7356">
+    <source><![CDATA[ignore_reason_pflicht]]></source>
+    <target><![CDATA[The config flag: ignore_reason_pflicht turns the "Ignore Reason" field into a mandatory field.]]></target>
+   </trans-unit>
+   <trans-unit id="7357">
+    <source><![CDATA[topo_no_refresh]]></source>
+    <target><![CDATA[This parameter controls if reload is allowed in Topology View.]]></target>
+   </trans-unit>
+   <trans-unit id="7358">
+    <source><![CDATA[topo_sub_prev_zoom]]></source>
+    <target><![CDATA[This parameter controls if zooming in submaps is possible. If not set, zooming will be possible.]]></target>
+   </trans-unit>
+   <trans-unit id="7359">
+    <source><![CDATA[topo_del_modus]]></source>
+    <target><![CDATA[This parameter controls if the functionality to delete devices directly (!!) in Topology View can be activated.]]></target>
+   </trans-unit>
+   <trans-unit id="7360">
+    <source><![CDATA[testsystem]]></source>
+    <target><![CDATA[The config flag activates a message in the header bar indicating that this is customer test system.]]></target>
+   </trans-unit>
+   <trans-unit id="7363">
+    <source><![CDATA[dev_grp_config_fm]]></source>
+    <target><![CDATA[By activating the config flags any existing backup scripts of the file manager are used during the device group independent config backup, parallel to the standard backup.]]></target>
+   </trans-unit>
+   <trans-unit id="7365">
+    <source><![CDATA[extended_overview]]></source>
+    <target><![CDATA[Extended Overview in Header Bar]]></target>
+   </trans-unit>
+   <trans-unit id="7366">
+    <source><![CDATA[sort_normal_first]]></source>
+    <target><![CDATA[If the config flag is set all new,open alarms are shown first.]]></target>
+   </trans-unit>
+   <trans-unit id="7368">
+    <source><![CDATA[failure_announcement]]></source>
+    <target><![CDATA[With this configuration parameter you can activate an emergency alarm, for example, if the event processing has been suspended. In the event of an error, an e-mail message would be sent to all clients.
+Also, a further action (e.g. transmission of SMSs) can be specified via a script. Please contact the ERAMON Support Team for this.]]></target>
+   </trans-unit>
+   <trans-unit id="7369">
+    <source><![CDATA[eep_core_korrelation_frame]]></source>
+    <target><![CDATA[This option specifies the time period (in minutes) during which a correlation via the network topology has taken place. Thus you can, for example, specify that downtimes which occur more than 120 minutes apart, are no longer correlated.]]></target>
+   </trans-unit>
+   <trans-unit id="7370">
+    <source><![CDATA[show_status_inactive]]></source>
+    <target><![CDATA[If activated this config flag enables the display of time periods where SNMP polls for the relevant were deactivated, in every EPM graph.]]></target>
+   </trans-unit>
+   <trans-unit id="7371">
+    <source><![CDATA[show_availability]]></source>
+    <target><![CDATA[Wenn activated the availability of the device is shown in every EPM graph in a red field.]]></target>
+   </trans-unit>
+   <trans-unit id="7372">
+    <source><![CDATA[car]]></source>
+    <target><![CDATA[Activates Carrier Management]]></target>
+   </trans-unit>
+   <trans-unit id="7373">
+    <source><![CDATA[accounting]]></source>
+    <target><![CDATA[Activates the Accounting module.]]></target>
+   </trans-unit>
+   <trans-unit id="7377">
+    <source><![CDATA[prov3]]></source>
+    <target><![CDATA[Activates the Provisioning tool.]]></target>
+   </trans-unit>
+   <trans-unit id="7378">
+    <source><![CDATA[show_tickets]]></source>
+    <target><![CDATA[Activates the Ticket System module]]></target>
+   </trans-unit>
+   <trans-unit id="7379">
+    <source><![CDATA[days_to_del_old_measurements]]></source>
+    <target><![CDATA[By default all EPM test inactive for at least 10 days are deleted. This time period can be controlled via the parameters.]]></target>
+   </trans-unit>
+   <trans-unit id="7380">
+    <source><![CDATA[car_angebot]]></source>
+    <target><![CDATA[Activates the "Invitations for Offers" function in Carrier Management.]]></target>
+   </trans-unit>
+   <trans-unit id="7381">
+    <source><![CDATA[check_buffer]]></source>
+    <target><![CDATA[A "Y" value during the SAT check leads to a test of the "EPM Buffer" and "CENTER Buffer" contents.]]></target>
+   </trans-unit>
+   <trans-unit id="7382">
+    <source><![CDATA[keep_ack_ignored]]></source>
+    <target><![CDATA[This flag identifies if new events, already cleared and acknowledged alarms are still available in the event tool over and above the default time. It would then be distinguished between cleared and cleared+ACK alarm. All others should only be ignored manually.]]></target>
+   </trans-unit>
+   <trans-unit id="7383">
+    <source><![CDATA[rep_avg_sum_row]]></source>
+    <target><![CDATA[This flag activates the sum/average line for table reports in the report editor.]]></target>
+   </trans-unit>
+   <trans-unit id="7384">
+    <source><![CDATA[topo_dormant_okay]]></source>
+    <target><![CDATA[This parameter specifies if the dormant status is to be identified as positive (same as up).]]></target>
+   </trans-unit>
+   <trans-unit id="7385">
+    <source><![CDATA[car_ref_item]]></source>
+    <target><![CDATA[Assigns the ISP circuit name with own and enables the display of own circuit names.]]></target>
+   </trans-unit>
+   <trans-unit id="7390">
+    <source><![CDATA[graph_lib.yAxis.min]]></source>
+    <target><![CDATA[Specifies the minimum y-axis value.
+
+Examples:
+nil - the graph_lib is scaled automatically, the y-axis does not necessarily start with "0".
+0   - The graph will always start with "0".]]></target>
+   </trans-unit>
+   <trans-unit id="7391">
+    <source><![CDATA[graph_lib.chart.width]]></source>
+    <target><![CDATA[Specifies the width of the graph (in pixels)
+
+unset = use default]]></target>
+   </trans-unit>
+   <trans-unit id="7392">
+    <source><![CDATA[graph_lib.chart.height]]></source>
+    <target><![CDATA[Specifies the height of the large graphs (in pixels):
+
+unset = use default]]></target>
+   </trans-unit>
+   <trans-unit id="7393">
+    <source><![CDATA[graph_lib.thumbnail.chart.width]]></source>
+    <target><![CDATA[Specifies the width of the preview graphs (in pixels):
+
+unset = use default]]></target>
+   </trans-unit>
+   <trans-unit id="7394">
+    <source><![CDATA[graph_lib.thumbnail.chart.height]]></source>
+    <target><![CDATA[Specifies the height of the preview graphs (in pixels):
+
+unset = use default]]></target>
+   </trans-unit>
+   <trans-unit id="7395">
+    <source><![CDATA[graph_lib.thumbnail.tooltip.enabled]]></source>
+    <target><![CDATA[If set to "true" this flag will also display a tool tip in the preview images. It is set by default to "false".]]></target>
+   </trans-unit>
+   <trans-unit id="7396">
+    <source><![CDATA[graph_lib.tooltip.enabled]]></source>
+    <target><![CDATA[If set to "false", this config flag ensures that the tool tip is not displayed in the big images. It is set by default to "true".]]></target>
+   </trans-unit>
+   <trans-unit id="7397">
+    <source><![CDATA[graph_lib.custom.thumbnail.show_minmax_per_default]]></source>
+    <target><![CDATA[Do you want to show the min/max course for the relevant test in the preview graph?
+
+Possible values:
+
+on - courses will be shown.
+hidden - the processes are deactivated by default, but can be activated via the legend.
+off - the process are deactivated and not shown in the legend either.]]></target>
+   </trans-unit>
+   <trans-unit id="7398">
+    <source><![CDATA[graph_lib.custom.show_minmax_per_default]]></source>
+    <target><![CDATA[Should min./max. processes for each test be shown in the graph?
+
+Possible values:
+on - processes will be shown
+hidden - processes are deactivated by default but can be activated via the legend.
+off - processes are deactivated and will NOT be shown in the legend either.]]></target>
+   </trans-unit>
+   <trans-unit id="7430">
+    <source><![CDATA[eep_core_event_costs_order]]></source>
+    <target><![CDATA[This flag allows an adjustment of the calculation sequence of the event cost calculation in the EEP core.
+
+Default:
+port_grp;dev_grp;lok;kunde;trap
+
+Another example:
+trap;dev_grp;kunde]]></target>
+   </trans-unit>
+   <trans-unit id="7438">
+    <source><![CDATA[layer2_topology]]></source>
+    <target><![CDATA[This parameter specifies if Layer-2 connections should be used for the topology view.]]></target>
+   </trans-unit>
+   <trans-unit id="7464">
+    <source><![CDATA[ip_sla_kategorie]]></source>
+    <target><![CDATA[Specifies the default SLA category for Versatel]]></target>
+   </trans-unit>
+   <trans-unit id="7472">
+    <source><![CDATA[pdf_headerbreite]]></source>
+    <target><![CDATA[Specifies the width (in mm) to which the header image in the pdf report will be scaled.]]></target>
+   </trans-unit>
+   <trans-unit id="7473">
+    <source><![CDATA[pdf_footerimgpath]]></source>
+    <target><![CDATA[Specifies the absolute path of the footer image on the ERAMON CENTER for the pdf reports.]]></target>
+   </trans-unit>
+   <trans-unit id="7474">
+    <source><![CDATA[pdf_footerhoehe]]></source>
+    <target><![CDATA[Specifies the height (in mm) to which the header image in the pdf reports will be scaled. This specification also applies to the titles.]]></target>
+   </trans-unit>
+   <trans-unit id="7477">
+    <source><![CDATA[graph_lib.credits.text]]></source>
+    <target><![CDATA[A brief credits section can be saved which will be shown in every EPM graph in the bottom right-hand corner.]]></target>
+   </trans-unit>
+   <trans-unit id="7478">
+    <source><![CDATA[graph_lib.credits.href]]></source>
+    <target><![CDATA[Optionally, you can specify a link that will call up the credits (config flag: graph_lib.credits.text).]]></target>
+   </trans-unit>
+   <trans-unit id="7493">
+    <source><![CDATA[VLAN-Manager]]></source>
+    <target><![CDATA[Activates the VLAN manager.]]></target>
+   </trans-unit>
+   <trans-unit id="7504">
+    <source><![CDATA[epm_lite_search_text_port]]></source>
+    <target><![CDATA[The basis for a port template search in the "Lite View" of the dynamic view in the EPM menu is the text entered via the token(s).
+
+Possible Tokens:
+
+#dev_name#
+#port_name#
+#port_desc#
+#port_desc_man#
+#item_name#
+#oid_desc#]]></target>
+   </trans-unit>
+   <trans-unit id="7505">
+    <source><![CDATA[epm_lite_search_text_dev]]></source>
+    <target><![CDATA[The basis for a device template search in the "Lite View" of the dynamic view in the EPM menu is the text entered via the token(s).
+
+Possible Tokens:
+#dev_name#
+#item_name#
+#oid_desc#]]></target>
+   </trans-unit>
+   <trans-unit id="7516">
+    <source><![CDATA[pdf_headerimgpath]]></source>
+    <target><![CDATA[Specifies the absolute path of the header image on the ERAMON CENTER for the pdf reports.]]></target>
+   </trans-unit>
+   <trans-unit id="7517">
+    <source><![CDATA[pdf_headerhoehe]]></source>
+    <target><![CDATA[Specifies the width (in mm) of the header image in the pdf reports.]]></target>
+   </trans-unit>
+   <trans-unit id="7518">
+    <source><![CDATA[pdf_startx_title]]></source>
+    <target><![CDATA[Specifies the left-hand margin of pdf files (in mm).]]></target>
+   </trans-unit>
+   <trans-unit id="7519">
+    <source><![CDATA[pdf_footerbreite]]></source>
+    <target><![CDATA[Specifies the width (in mm)  for the footer image in the pdf reports.]]></target>
+   </trans-unit>
+   <trans-unit id="7523">
+    <source><![CDATA[graph_lib.title.style.color]]></source>
+    <target><![CDATA[Color of the title in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="7525">
+    <source><![CDATA[graph_lib.yAxis.title.style.color]]></source>
+    <target><![CDATA[Color of Y-Axis Title]]></target>
+   </trans-unit>
+   <trans-unit id="7526">
+    <source><![CDATA[graph_lib.legend.itemStyle.color]]></source>
+    <target><![CDATA[Colors for the various legends]]></target>
+   </trans-unit>
+   <trans-unit id="7527">
+    <source><![CDATA[graph_lib.yAxis.labels.style.color]]></source>
+    <target><![CDATA[Color of Y-Axis Text (normally values)]]></target>
+   </trans-unit>
+   <trans-unit id="7528">
+    <source><![CDATA[graph_lib.xAxis.labels.style.color]]></source>
+    <target><![CDATA[Color of X-Axis Text (normally dates)]]></target>
+   </trans-unit>
+   <trans-unit id="7531">
+    <source><![CDATA[graph_lib.xAxis.gridLineColor]]></source>
+    <target><![CDATA[Color of Y-axis gridline]]></target>
+   </trans-unit>
+   <trans-unit id="7532">
+    <source><![CDATA[graph_lib.yAxis.gridLineColor]]></source>
+    <target><![CDATA[Color of Y-axis gridline]]></target>
+   </trans-unit>
+   <trans-unit id="7533">
+    <source><![CDATA[graph_lib.yAxis.minorGridLineColor]]></source>
+    <target><![CDATA[Color of Y-axis minor gridlines]]></target>
+   </trans-unit>
+   <trans-unit id="7534">
+    <source><![CDATA[graph_lib.xAxis.minorGridLineColor]]></source>
+    <target><![CDATA[Color of X-axis minor gridlines]]></target>
+   </trans-unit>
+   <trans-unit id="7535">
+    <source><![CDATA[graph_lib.xAxis.minorGridLineWidth]]></source>
+    <target><![CDATA[Thickness of X-axis minor gridlines (in pixels)]]></target>
+   </trans-unit>
+   <trans-unit id="7536">
+    <source><![CDATA[graph_lib.yAxis.minorGridLineWidth]]></source>
+    <target><![CDATA[Thickness of Y-axis minor gridlines (in pixels)]]></target>
+   </trans-unit>
+   <trans-unit id="7537">
+    <source><![CDATA[graph_lib.yAxis.gridLineWidth]]></source>
+    <target><![CDATA[Thickness of Y-axis gridlines (in pixels)]]></target>
+   </trans-unit>
+   <trans-unit id="7538">
+    <source><![CDATA[graph_lib.xAxis.gridLineWidth]]></source>
+    <target><![CDATA[Thickness of X-axis gridlines (in pixels)]]></target>
+   </trans-unit>
+   <trans-unit id="7539">
+    <source><![CDATA[graph_lib.xAxis.lineColor]]></source>
+    <target><![CDATA[Color of X-axis]]></target>
+   </trans-unit>
+   <trans-unit id="7540">
+    <source><![CDATA[graph_lib.yAxis.lineColor]]></source>
+    <target><![CDATA[Color of Y-axis]]></target>
+   </trans-unit>
+   <trans-unit id="7541">
+    <source><![CDATA[graph_lib.xAxis.labels.overflow]]></source>
+    <target><![CDATA[Adjustment of X-axis labels]]></target>
+   </trans-unit>
+   <trans-unit id="7542">
+    <source><![CDATA[graph_lib.yAxis.labels.overflow]]></source>
+    <target><![CDATA[Adjustment of Y-axis labels]]></target>
+   </trans-unit>
+   <trans-unit id="7543">
+    <source><![CDATA[graph_lib.xAxis.labels.rotation]]></source>
+    <target><![CDATA[Rotation of X-axis labels]]></target>
+   </trans-unit>
+   <trans-unit id="7544">
+    <source><![CDATA[graph_lib.xAxis.labels.x]]></source>
+    <target><![CDATA[Movement of X-axis labels (in pixels)]]></target>
+   </trans-unit>
+   <trans-unit id="7545">
+    <source><![CDATA[graph_lib.xAxis.labels.align]]></source>
+    <target><![CDATA[Orientation of X-axis labels]]></target>
+   </trans-unit>
+   <trans-unit id="7546">
+    <source><![CDATA[graph_lib.xAxis.lineWidth]]></source>
+    <target><![CDATA[Thickness of X-axis line]]></target>
+   </trans-unit>
+   <trans-unit id="7547">
+    <source><![CDATA[graph_lib.yAxis.lineWidth]]></source>
+    <target><![CDATA[Thickness of Y-axis line]]></target>
+   </trans-unit>
+   <trans-unit id="7548">
+    <source><![CDATA[graph_lib.xAxis.gridLineDashStyle]]></source>
+    <target><![CDATA[Line style for X-axis gridline]]></target>
+   </trans-unit>
+   <trans-unit id="7549">
+    <source><![CDATA[graph_lib.yAxis.gridLineDashStyle]]></source>
+    <target><![CDATA[Line style for Y-axis gridline]]></target>
+   </trans-unit>
+   <trans-unit id="7550">
+    <source><![CDATA[graph_lib.xAxis.minorGridLineDashStyle]]></source>
+    <target><![CDATA[Minor grid line-style for X-axis]]></target>
+   </trans-unit>
+   <trans-unit id="7551">
+    <source><![CDATA[graph_lib.yAxis.minorGridLineDashStyle]]></source>
+    <target><![CDATA[Minor grid line-style for Y-axis]]></target>
+   </trans-unit>
+   <trans-unit id="7552">
+    <source><![CDATA[graph_lib.xAxis.tickColor]]></source>
+    <target><![CDATA[Color of X-axis ticks]]></target>
+   </trans-unit>
+   <trans-unit id="7553">
+    <source><![CDATA[graph_lib.yAxis.tickColor]]></source>
+    <target><![CDATA[Color of Y-axis ticks]]></target>
+   </trans-unit>
+   <trans-unit id="7554">
+    <source><![CDATA[graph_lib.xAxis.minorTickColor]]></source>
+    <target><![CDATA[Color of minor X-axis ticks]]></target>
+   </trans-unit>
+   <trans-unit id="7555">
+    <source><![CDATA[graph_lib.yAxis.minorTickColor]]></source>
+    <target><![CDATA[Color of minor Y-axis ticks]]></target>
+   </trans-unit>
+   <trans-unit id="7567">
+    <source><![CDATA[sec_max_devs]]></source>
+    <target><![CDATA[Maximum number of elements in a device group before an alert is issued. For device group dropdowns - at specific locations, e.g. EPM Views.]]></target>
+   </trans-unit>
+   <trans-unit id="7568">
+    <source><![CDATA[sec_max_ports]]></source>
+    <target><![CDATA[Maximum number of elements in a port group before an alert is issued. For port group dropdowns - at specific locations, e.g. EPM Views.]]></target>
+   </trans-unit>
+   <trans-unit id="7571">
+    <source><![CDATA[rep_server]]></source>
+    <target><![CDATA[Activates the option to store a reporting server.]]></target>
+   </trans-unit>
+   <trans-unit id="7580">
+    <source><![CDATA[del_normal_events]]></source>
+    <target><![CDATA[This flag specifies the time period (in days) after which events with "Normal" prio are deleted from: events_out.]]></target>
+   </trans-unit>
+   <trans-unit id="7747">
+    <source><![CDATA[DISPLAY_INTERVAL_1]]></source>
+    <target><![CDATA[Adjustable time interval specifying when to change to aggregation level 1.
+
+Example: 
+604800 - For a time period of more than 7 days, aggregation level 1 will be used.
+
+NOTE: This setting may well be influenced by config flag: DISPLAY_INTERVAL_2.]]></target>
+   </trans-unit>
+   <trans-unit id="7748">
+    <source><![CDATA[DISPLAY_INTERVAL_2]]></source>
+    <target><![CDATA[Adjustable time interval specifying when to change to aggregation level 2.
+
+Example:
+2678400 - For a time period of more than 31 days, aggregation level 2 will be used.
+
+3456000 - Starting from 40 days.]]></target>
+   </trans-unit>
+   <trans-unit id="7749">
+    <source><![CDATA[graph_lib.custom.logo]]></source>
+    <target><![CDATA[The logo displayed in the EPM graph. Optionally in png-format and transparent to ensure legibility of the graph's content.]]></target>
+   </trans-unit>
+   <trans-unit id="7750">
+    <source><![CDATA[graph_lib.custom.show_timeframe]]></source>
+    <target><![CDATA[Indicates if the current time interval is didplayed underneath the x-axis of the respective EPM graph.]]></target>
+   </trans-unit>
+   <trans-unit id="7758">
+    <source><![CDATA[prov3_fm]]></source>
+    <target><![CDATA[Activates the option to integrate File Manager scripts in Provisioning.]]></target>
+   </trans-unit>
+   <trans-unit id="7769">
+    <source><![CDATA[hide_ignore_clear]]></source>
+    <target><![CDATA[This setting indicates when (in minutes) cleared events will no longer be shown in the Event Tool.]]></target>
+   </trans-unit>
+   <trans-unit id="7822">
+    <source><![CDATA[l2_no_dns]]></source>
+    <target><![CDATA[If this flag is set, no DNS polling for the IP addresses of terminals will occur within "Enter L2 Data". The DNS names of the terminals are therefore not identified and saved in the L2 data.]]></target>
+   </trans-unit>
+   <trans-unit id="8156">
+    <source><![CDATA[graph_lib.custom.show_clear_threshholds_per_default]]></source>
+    <target><![CDATA[Specifies if EPM "clear" threshold values will be shown in graphs by default.
+
+Possible values:
+on - the "clear" threshold values are displayed by default.
+off - the "clear" threshold values will not be displayed.
+hidden - the "clear"threshold values are hidden by default.
+auto - the "clear" threshold values are displayed if the threshold value deviates by less than 25% from the set minimum/maximum/average value for the time period.
+
+NB: If the regular as well as the "clear" threshold values are active and have the same value, they will be merged.]]></target>
+   </trans-unit>
+   <trans-unit id="8367">
+    <source><![CDATA[Real-Time-Polling]]></source>
+    <target><![CDATA[Turbo polling carried out in realtime]]></target>
+   </trans-unit>
+   <trans-unit id="8381">
+    <source><![CDATA[graph_lib.thumbnail.plotOptions.line.lineWidth]]></source>
+    <target><![CDATA[Line width in preview graphs
+
+Example: 1]]></target>
+   </trans-unit>
+   <trans-unit id="8407">
+    <source><![CDATA[graph_lib.custom.line_area.steps]]></source>
+    <target><![CDATA[If the value of the parameter is: "set", then lines and areas in EPM graphs will be displayed as step graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8420">
+    <source><![CDATA[ignore_clear_reopen_ign]]></source>
+    <target><![CDATA[This flag indicates if it should be possible to re-open new events with already ignored alarms in the Event Tool.
+
+Description of values:
+0 - The ignored event will not be re-opened when a renewed down alert occurs. The system simply shows a new event in the event tool.
+1 - The ignored event will be re-opened when a renewed down alert occurs, and will be shown in the event tool as pending.]]></target>
+   </trans-unit>
+   <trans-unit id="8525">
+    <source><![CDATA[snmp_timeout]]></source>
+    <target><![CDATA[]]></target>
+   </trans-unit>
+   <trans-unit id="8526">
+    <source><![CDATA[snmp_retries]]></source>
+    <target><![CDATA[This value specifies the number of SNMP connection retries.]]></target>
+   </trans-unit>
+   <trans-unit id="8527">
+    <source><![CDATA[snmp_max_repeater]]></source>
+    <target><![CDATA[This value specifies the number of polled variables per SNMP polling.]]></target>
+   </trans-unit>
+   <trans-unit id="8533">
+    <source><![CDATA[graph_lib.tooltip.style.color]]></source>
+    <target><![CDATA[Specifies the color of the text within the tool tips, with except for the title of the measurement.]]></target>
+   </trans-unit>
+   <trans-unit id="8541">
+    <source><![CDATA[pdf_show_pagenumber]]></source>
+    <target><![CDATA[Specifies if the page numbers are to be shown in the pdf files.]]></target>
+   </trans-unit>
+   <trans-unit id="8556">
+    <source><![CDATA[graph_lib.tooltip.style.legendColor]]></source>
+    <target><![CDATA[Allows you to override the color of the legend for the tooltip. If no color is specified the legend is displayed in the respective legend color.]]></target>
+   </trans-unit>
+   <trans-unit id="8557">
+    <source><![CDATA[clear_wait]]></source>
+    <target><![CDATA[If a device is redistributed from one SAT to another, any open errors will generate a "clear_wait" event. This will be converted into a true clear event once the waiting time is over. The background for this is that theoretically the error could have been cleared in the time it took  to complete the SAT change, without this being recognized by either SAT. For this reason any open errors will be cleared after the waiting time (approx. 20 minutes) - unless the now relevant SAT generates a further error message in the meantime.
+
+Specified in minutes.]]></target>
+   </trans-unit>
+   <trans-unit id="8641">
+    <source><![CDATA[graph_lib.custom.thresholds.color]]></source>
+    <target><![CDATA[This overrides the color of the threshold values in the EPM graphs. Otherwise the color of the corresponding measurement would be used.]]></target>
+   </trans-unit>
+   <trans-unit id="8642">
+    <source><![CDATA[graph_lib.custom.thresholds.dashStyle]]></source>
+    <target><![CDATA[Line style of the threshold values in the EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8644">
+    <source><![CDATA[replication_error_time]]></source>
+    <target><![CDATA[Specification of difference in seconds between active and passive DB server as of when it is assumed that the replication was aborted. A "Replication is delayed" event with "Critical" priority will be sent and the ERAMON Infrastructure diplay changed to red.]]></target>
+   </trans-unit>
+   <trans-unit id="8645">
+    <source><![CDATA[replication_warn_time]]></source>
+    <target><![CDATA[Specification of difference in seconds between active and passive DB server as of when the "Replication is delayed" event with the "major" priority is sent. In addition to this the ERAMON Infrastructure display will change to amber.]]></target>
+   </trans-unit>
+   <trans-unit id="8646">
+    <source><![CDATA[gdbconnect]]></source>
+    <target><![CDATA[IP address or DNS name of the DB host for the geo DB. If the DB is stored locally on the CENTER (=default), the "127.0.0.1" IP address has to specified.]]></target>
+   </trans-unit>
+   <trans-unit id="8647">
+    <source><![CDATA[gdbname]]></source>
+    <target><![CDATA[Name of the geo DB.]]></target>
+   </trans-unit>
+   <trans-unit id="8648">
+    <source><![CDATA[gdbpwd]]></source>
+    <target><![CDATA[Password set in the configuration parameters for the geo db on the geo DB.]]></target>
+   </trans-unit>
+   <trans-unit id="8649">
+    <source><![CDATA[gdbtyp]]></source>
+    <target><![CDATA[Type of database (e.g. MySQL) of the geo DB.]]></target>
+   </trans-unit>
+   <trans-unit id="8650">
+    <source><![CDATA[gdbuser]]></source>
+    <target><![CDATA[database user of the geo DB]]></target>
+   </trans-unit>
+   <trans-unit id="8651">
+    <source><![CDATA[hosts_motd]]></source>
+    <target><![CDATA[This parameter allows the generation of entries in the /etc/hosts.
+Examples:
+
+172.10.10.10 ServerA
+172.20.20.20 ServerB
+
+Has the following value in the config flag as a result:
+172.10.10.10 :ServerA;172.20.20.20:ServerB]]></target>
+   </trans-unit>
+   <trans-unit id="8656">
+    <source><![CDATA[graph_lib.tooltip.borderWidth]]></source>
+    <target><![CDATA[Thickness of border for tooltips in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8657">
+    <source><![CDATA[graph_lib.tooltip.borderRadius]]></source>
+    <target><![CDATA[Border radius of the tooltips in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8658">
+    <source><![CDATA[graph_lib.tooltip.borderColor]]></source>
+    <target><![CDATA[Border color for the tooltips in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8659">
+    <source><![CDATA[graph_lib.tooltip.backgroundColor]]></source>
+    <target><![CDATA[Background color for the tooltips in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8660">
+    <source><![CDATA[graph_lib.thumbnail.plotOptions.area.lineWidth]]></source>
+    <target><![CDATA[Line thickness for areas in preview graphs (EPM).]]></target>
+   </trans-unit>
+   <trans-unit id="8661">
+    <source><![CDATA[graph_lib.thumbnail.credits.text]]></source>
+    <target><![CDATA[Text of the information text in the bottom right-hand corner of EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8662">
+    <source><![CDATA[graph_lib.thumbnail.credits.href]]></source>
+    <target><![CDATA[Link of the information text in the bottom right-hand corner of the EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8663">
+    <source><![CDATA[graph_lib.navigation.buttonOptions.theme.stroke]]></source>
+    <target><![CDATA[Border color for buttons in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8664">
+    <source><![CDATA[graph_lib.navigation.buttonOptions.theme.states.hover.stroke]]></source>
+    <target><![CDATA[Border color for temporarily selected buttons in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8665">
+    <source><![CDATA[graph_lib.navigation.buttonOptions.theme.states.hover.fill]]></source>
+    <target><![CDATA[Fill color for temporarily selected buttons in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8666">
+    <source><![CDATA[graph_lib.navigation.buttonOptions.theme.select.hover.stroke]]></source>
+    <target><![CDATA[Mouseover border color for temporarily selected buttons in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8667">
+    <source><![CDATA[graph_lib.navigation.buttonOptions.theme.select.hover.fill]]></source>
+    <target><![CDATA[Mouseover fill color for temporarily selected buttons in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8668">
+    <source><![CDATA[graph_lib.navigation.buttonOptions.theme.fill]]></source>
+    <target><![CDATA[Fill color for the buttons in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8669">
+    <source><![CDATA[graph_lib.navigation.buttonOptions.symbolStroke]]></source>
+    <target><![CDATA[Border color for the icons of buttons in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8670">
+    <source><![CDATA[graph_lib.navigation.buttonOptions.symbolFill]]></source>
+    <target><![CDATA[Fill color for the icons on the buttons on EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8671">
+    <source><![CDATA[graph_lib.legend.itemHoverStyle.color]]></source>
+    <target><![CDATA[Mouseover font color for legend elements in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8672">
+    <source><![CDATA[graph_lib.legend.itemHiddenStyle.color]]></source>
+    <target><![CDATA[Font color for hidden legend elements in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8673">
+    <source><![CDATA[graph_lib.custom.timeframe_format]]></source>
+    <target><![CDATA[Time format for the display of the time frame in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8674">
+    <source><![CDATA[graph_lib.chart.resetZoomButton.theme.stroke]]></source>
+    <target><![CDATA[Changes the color of the border for the "Reset Zoom" button in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8675">
+    <source><![CDATA[graph_lib.chart.resetZoomButton.theme.hover.stroke]]></source>
+    <target><![CDATA[Changes of the mouseover color  of the frame for the "Reset Zoom" button in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8676">
+    <source><![CDATA[graph_lib.chart.resetZoomButton.theme.hover.fill]]></source>
+    <target><![CDATA[Changes of the mouseover fill color  of the "Reset Zoom" button in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8677">
+    <source><![CDATA[graph_lib.chart.resetZoomButton.theme.hover.color]]></source>
+    <target><![CDATA[Changes of the mouseover font color  of the "Reset Zoom" button in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8678">
+    <source><![CDATA[graph_lib.chart.resetZoomButton.theme.fill]]></source>
+    <target><![CDATA[Changes the fill color of the "Reset Zoom" button in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8679">
+    <source><![CDATA[graph_lib.chart.resetZoomButton.theme.color]]></source>
+    <target><![CDATA[Changes the font color of the "Reset Zoom" button in EPM graphs.]]></target>
+   </trans-unit>
+   <trans-unit id="8680">
+    <source><![CDATA[graph_lib.chart.colors]]></source>
+    <target><![CDATA[If no color specs have been recorded for an EPM graph, the system uses the default set from this parameter in sequence.If the parameter is empty the default setting of the graph-lib is applied.]]></target>
+   </trans-unit>
+   <trans-unit id="8681">
+    <source><![CDATA[eep_core_bgp_neighbor_desc]]></source>
+    <target><![CDATA[Changes the additional information shown in the event (device and port name).
+Possible settings are:
+remote - display of the remote device and the remote port
+local - display of the local device and local port
+none - no display of additional information]]></target>
+   </trans-unit>
+   <trans-unit id="8685">
+    <source><![CDATA[pam_clear_min]]></source>
+    <target><![CDATA[Specification of waiting time for PAM "Good" messages in minutes - 5 minutes by default.]]></target>
+   </trans-unit>
+   <trans-unit id="8686">
+    <source><![CDATA[geo_hier_connections]]></source>
+    <target><![CDATA[Hierarchical dependencies ("Uplink Ports") on topology view maps activated or deactivated.]]></target>
+   </trans-unit>
+   <trans-unit id="8687">
+    <source><![CDATA[eep_core_ospf_neighbor_desc]]></source>
+    <target><![CDATA[Changes the additional information shown in the event (device and port name).
+Possible settings are:
+remote - display of the remote device and the remote port
+local - display of the local device and local port
+none - no display of additional information]]></target>
+   </trans-unit>
+   <trans-unit id="8688">
+    <source><![CDATA[eep_core_ospf_neighbor_text]]></source>
+    <target><![CDATA[Changes the event text of "ospfNbrStateChange" messages assigned to ports. By default set to "OSPF Neighbor Down".]]></target>
+   </trans-unit>
+   <trans-unit id="8689">
+    <source><![CDATA[eep_core_bgp_neighbor_text]]></source>
+    <target><![CDATA[Changes the event text of "BGP Session Down" messages assigned to ports. By default set to "BGP Neighbor Down".]]></target>
+   </trans-unit>
+   <trans-unit id="8691">
+    <source><![CDATA[eep_core_keep_ackreason_reopen]]></source>
+    <target><![CDATA[Specifies the time period between the clearance of an event and any subsequent reopening, where the previous ACK reason will be used. If this time period is exceeded, the event will no longer be seen as acknowledged when reopened (an ACK history is available though).This configuration parameter is similiar to "eep_core_keep_ackreason_reopen_ign" - but it only affects events that have not been ignored.]]></target>
+   </trans-unit>
+   <trans-unit id="8737">
+    <source><![CDATA[graph_lib.yAxis.tickPixelInterval]]></source>
+    <target><![CDATA[This specification configures the distance of the axes markers Specification in pixels.]]></target>
+   </trans-unit>
+   <trans-unit id="8738">
+    <source><![CDATA[graph_lib.custom.reporting.title.text.dev]]></source>
+    <target><![CDATA[Title of EPM device graphs. It is also possible to use tokens when entering the text. Only applies to the report editor. 
+
+Example: 
+#dev_name# - Device name
+#dev_ip# - Device IP
+#kunde_such# - Search expression for customer
+#kunde_adr# - Address line 1 for customer
+#kunde_adr2# - Address line 2 for customer
+#kunde_ort# - City location for customer
+#kunde_strasse# - Customer's road
+#kunde_plz# - Customer's post code/ZIP
+#locations_such# - Search expression for location
+#locations_adr1# - Address line 1 for location
+#locations_adr2# - Address line 2 for location
+#locations_ort# - City for the location
+#locations_strasse# - Road for the location
+#locations_plz# - Post code/ZIP for the location]]></target>
+   </trans-unit>
+   <trans-unit id="8739">
+    <source><![CDATA[graph_lib.custom.reporting.subtitle.text.dev]]></source>
+    <target><![CDATA[Subtitle for EPM device graphs. It is also possible to use tokens when entering the text. Only applies to the report editor. 
+
+Example: 
+#dev_name# - Device name
+#dev_ip# - Device IP
+#kunde_such# - Search expression for customer
+#kunde_adr# - Address line 1 for customer
+#kunde_adr2# - Address line 2 for customer
+#kunde_ort# - City location for customer
+#kunde_strasse# - Customer's road
+#kunde_plz# - Customer's post code/ZIP
+#locations_such# - Search expression for location
+#locations_adr1# - Address line 1 for location
+#locations_adr2# - Address line 2 for location
+#locations_ort# - City for the location
+#locations_strasse# - Road for the location
+#locations_plz# - Post code/ZIP for the location]]></target>
+   </trans-unit>
+   <trans-unit id="8740">
+    <source><![CDATA[graph_lib.custom.reporting.subtitle.text.port]]></source>
+    <target><![CDATA[Subtitle of EPM port graphs.It is also possible to use tokens when entering the text. Only applies to the report editor. 
+
+Example: 
+#dev_name# - Device name
+#dev_ip# - Device IP
+#port_name# Port name
+#port_desc# Port description
+#port_desc_man# - Port description (manually entered)
+#port_typ# - Port type
+#port_speed# - Bandwidth of the port (formatted)
+#max_bytes# - Bandwidth of the port (read out, in byte)
+#max_bytes_era# - Bandwidth of the port (manually entered, in Byte)
+#kunde_such# - Search expression for customer
+#kunde_adr# - Address line 1 for customer
+#kunde_adr2# - Address line 2 for customer
+#kunde_ort# - City location for customer
+#kunde_strasse# - Customer's road
+#kunde_plz# - Customer's post code/ZIP
+#locations_such# - Search expression for location
+#locations_adr1# - Address line 1 for location
+#locations_adr2# - Address line 2 for location
+#locations_ort# - City for the location
+#locations_strasse# - Road for the location
+#locations_plz# - Post code/ZIP for the location]]></target>
+   </trans-unit>
+   <trans-unit id="8741">
+    <source><![CDATA[graph_lib.custom.reporting.title.text.port]]></source>
+    <target><![CDATA[Title of EPM port graphs. It is also possible to use tokens when entering the text. Only applies to the report editor. 
+
+Example: 
+#dev_name# - Device name
+#dev_ip# - Device IP
+#port_name# Port name
+#port_desc# Port description
+#port_desc_man# - Port description (manually entered)
+#port_typ# - Port type
+#port_speed# - Bandwidth of the port (formatted)
+#max_bytes# - Bandwidth of the port (read out, in byte)
+#max_bytes_era# - Bandwidth of the port (manually entered, in Byte)
+#kunde_such# - Search expression for customer
+#kunde_adr# - Address line 1 for customer
+#kunde_adr2# - Address line 2 for customer
+#kunde_ort# - City location for customer
+#kunde_strasse# - Customer's road
+#kunde_plz# - Customer's post code/ZIP
+#locations_such# - Search expression for location
+#locations_adr1# - Address line 1 for location
+#locations_adr2# - Address line 2 for location
+#locations_ort# - City for the location
+#locations_strasse# - Road for the location
+#locations_plz# - Post code/ZIP for the location]]></target>
+   </trans-unit>
+   <trans-unit id="8742">
+    <source><![CDATA[graph_lib.custom.reporting.logo]]></source>
+    <target><![CDATA[The logo displayed in the EPM graph. Optionally in png-format and transparent to ensure legibility of the graph's content. Only applies to the report editor.]]></target>
+   </trans-unit>
+   <trans-unit id="8743">
+    <source><![CDATA[graph_lib.reporting.credits.text]]></source>
+    <target><![CDATA[A brief credits' section can be saved which will be shown in every EPM graph in the bottom right-hand corner. Only applies to the report editor.]]></target>
+   </trans-unit>
+   <trans-unit id="8744">
+    <source><![CDATA[graph_lib.reporting.credits.href]]></source>
+    <target><![CDATA[Optionally, you can specify a link that will call up the credits (config flag: graph_lib.credits.text). Only applies to the report editor.]]></target>
+   </trans-unit>
+   <trans-unit id="8745">
+    <source><![CDATA[graph_lib.yAxis.endOnTick]]></source>
+    <target><![CDATA[Specifies if the y-axis is to end with a labelled grid line or can be finished without one.]]></target>
+   </trans-unit>
+   <trans-unit id="8746">
+    <source><![CDATA[graph_lib.reporting.yAxis.endOnTick]]></source>
+    <target><![CDATA[Specifies if the y-axis is to be finished with a labelled grid line or without one. Only applies to the report editor.]]></target>
+   </trans-unit>
+   <trans-unit id="8747">
+    <source><![CDATA[graph_lib.reporting.yAxis.tickPixelInterval]]></source>
+    <target><![CDATA[This specification configures the distance of the axes markers. Only applies to the report editor.
+
+Specification in pixels.]]></target>
+   </trans-unit>
+   <trans-unit id="8751">
+    <source><![CDATA[disable_era_db_regex_search]]></source>
+    <target><![CDATA[Using the "-" character allows you to configure the replacement of the SQL regex through this setting. The "true" value deactivates the replacement of the search expression to regex. Changes will not become active until the next login.]]></target>
+   </trans-unit>
+   <trans-unit id="8753">
+    <source><![CDATA[routing_port_grp]]></source>
+    <target><![CDATA[When this config flag is set, the routing table will be read out from all devices/ ports of the recorded port group. The maximum number of routes per device is 20,000.]]></target>
+   </trans-unit>
+   <trans-unit id="8818">
+    <source><![CDATA[eep_core_keep_ackreason_reopen_ign]]></source>
+    <target><![CDATA[Specifies the time period between the clearance of an event and any subsequent reopening, where the previous ACK reason will be used. If this time period is exceeded, the event will no longer be seen as acknowledged when reopened (an ACK history is available though). This configuration parameter is similiar to "eep_core_keep_ackreason_reopen" - but it only affects ignored events.]]></target>
+   </trans-unit>
+   <trans-unit id="8823">
+    <source><![CDATA[unknown_syslog_flooding_count]]></source>
+    <target><![CDATA[Indicates the amount of Unknown Syslog Messages required within a 24-hour period for a device before an alert is generated in ERAMON.]]></target>
+   </trans-unit>
+   <trans-unit id="8836">
+    <source><![CDATA[topoview_port_typ_ignore]]></source>
+    <target><![CDATA[This parameter controls which port types are to be ignored during the detection of connections for the "Update topology of Topology View" scheduled application.
+Example: propVirtual,propPointToPointSerial]]></target>
+   </trans-unit>
+   <trans-unit id="8843">
+    <source><![CDATA[bandwidth_max_speed_tolerance]]></source>
+    <target><![CDATA[This configuration parameter specifies the multiplication factor, when a violation would be dismissed and an event generated to notify you of this. It is only used for EPM measurements where the "Use Port Speed as maximum Value" option has been activated. The default value is 1.05. This would result in the dismissal of all values that exceed the maximum port speed by more than 5 percent.]]></target>
+   </trans-unit>
+   <trans-unit id="8844">
+    <source><![CDATA[MULTI_VPN_NO_VPN_NAME]]></source>
+    <target><![CDATA[Display text for the VPN name, if for a client with activated Multi-VPN the device is not assigned to a VPN.]]></target>
+   </trans-unit>
+   <trans-unit id="8846">
+    <source><![CDATA[eventtool_ttl_min_root]]></source>
+    <target><![CDATA[This config flag deactivates the display of events within the TTL minimum time period for the main level/root, as long as these events are no subsequent events or part of a container. If it is a main event or part of a container, the event will still be displayed.]]></target>
+   </trans-unit>
+   <trans-unit id="8865">
+    <source><![CDATA[del_flapping_monitor_events]]></source>
+    <target><![CDATA[This flag specifies the time period (in hours) after which the generated main events for flapping service monitors are deleted; but only those without sub-events.]]></target>
+   </trans-unit>
+   <trans-unit id="8907">
+    <source><![CDATA[ldap_ad_sync]]></source>
+    <target><![CDATA[Activates the synchronization of ERAMON users with those in the active directory.
+NB: Please refer to the "Authentication" article in the manual for an explanation of permission group mappings.]]></target>
+   </trans-unit>
+   <trans-unit id="8956">
+    <source><![CDATA[DELETE_OLD_CONNECTIONS_INTERVAL]]></source>
+    <target><![CDATA[This parameter specifies the number of hours after which connections of ports that are down are to be deleted.
+
+The following special values need particular attention:
+-1: The connections are never deleted. Except: When running manual CDP/LLDP scans through the quick action on the device info page all connections are deleted before the scan begins .
+0: The connections are deleted as soon as the next CDP/LLDP scan is run.
+
+Background:
+The SNMP can usually no longer read out any active connections for ports that are down; without any indication if these connections should still exist or are still configured. To ensure these connection do not remain on the system for all times, they are deleted by default after 50 hours.]]></target>
+   </trans-unit>
+  </body>
+ </file>
+</xliff>
