@@ -1,1 +1,1 @@
-<commit>1</commit><commit>2</commit><commit>3</commit>
+<commit>1</commit>
